@@ -1,0 +1,192 @@
+<?php
+
+
+if($_POST["message"]) {
+
+
+mail("support@nerdifytech.ml", "Here is the subject line",
+
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+
+}
+
+
+?>
+
+
+
+
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Nerdify Tech</title>
+		<link rel = "icon" href = "images/logo.jpg" type = "image/x-icon">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<center><h1>Nerdify Tech</a></h1></center>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="generic.html">Generic</a></li>
+								<li><a href="elements.html">Elements</a></li>
+								<li><a href="#">Log In</a></li>
+								<li><a href="#">Sign Up</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<center><div class="logo"><span class="icon"><img src = "images/logo.jpg" width="75" height="75" class="center"></span></div>
+							<h2>Nerdify Tech</h2>
+							<p>A group of OP Creators. Join us Now!</p></center>
+						</div>
+					</section>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/Narcotics.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Discord Bots!!</h2>
+										<p>Who doesnt like bots? Especially ones in discord. Everyone plays Dank memer and owo. We can create you such bots right now!</p>
+										<a href="https://invite.nerdifytech.ml" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/Zaira.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Logos & Banner</h2>
+										<p>Tired of searching for good logos? Or for good Logo Creators. If you give us the order. We wont dissapoint you!</p>
+										<a href="https://invite.nerdifytech.ml" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/host.png" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Hosting</h2>
+										<p>We provide free hosting for every bot you order. But if you want to host your own bot, then you can pay. This is really cheap unlike the next option.</p>
+										<a href="#" class="special">Learn more</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="four" class="wrapper alt style1">
+								<div class="inner">
+									<h2 class="major">VPS</h2>
+									<p>These are all the VPS standards we offer!</p>
+									<section class="features">
+										<article>
+											<h3 class="major">Standard</h3>
+											<p>2 Cores<br>5GB RAM<br>1TB Data<br>Price = $10</p>
+											<a href="https://invite.nerdifytech.ml" class="special">Learn more</a>
+										</article>
+										<article>
+											
+											<h3 class="major">Premium</h3>
+											<p>5 Cores<br>10GB RAM<br>3TB Data<br>Price = $20</p>
+											<a href="https://invite.nerdifytech.ml" class="special">Learn more</a>
+										</article>
+										<article>
+											
+											<h3 class="major">Super Premium</h3>
+											<p>8 Cores<br>30GB RAM<br>3TB Data<br>Price = $50</p>
+											<a href="https://invite.nerdifytech.ml" class="special">Learn more</a>
+										</article>
+										<article>
+											
+											<h3 class="major">Custom</h3>
+											<p>X Cores<br>XRAM<br>X Data<br>Price = $Y</p>
+											<p><h6>X and Y are variables</h6>
+											<a href="https://invite.nerdifytech.ml" class="special">Learn more</a></p>
+										</article>
+									</section>
+								</div>
+							</section>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							
+							<form action=”subscriberform.php” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="icon solid fa-envelope"><a href="mailto:support@nerdifytech.ml">support@nerdifytech.ml</a></li>
+								<li class="icon brands fa-twitter"><a href="https://twitter.com/nerdifytech">twitter.com/nerdifytech</a></li>
+								<li class="icon brands fa-discord"><a href="https://invite.nerdifytech.ml">invite.nerdifytech.ml</a></li>
+								<li class="icon brands fa-instagram"><a href="https://instagram.com/NerdifyTech">instagram.com/NerdifyTech</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; NerdifyTech Inc. All rights reserved.</li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
